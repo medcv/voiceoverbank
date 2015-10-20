@@ -14,6 +14,13 @@ var accounts = [
         nickname: "Yazdan Credit",
         balance: "540"
 
+    },
+    {
+        id: "3",
+        type: "Bank",
+        nickname: "My Bank",
+        balance: "23590"
+
     }
 ];
 /* GET accounts listing. */
