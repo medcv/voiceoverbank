@@ -23,9 +23,34 @@ var accounts = [
 
     }
 ];
+
+
+var bills = [
+    {
+        id: "1",
+        payee: "Cable",
+        status: "Pending",
+        payment_amount: "230",
+        payment_date: "12/11/2015"
+    },
+    {
+        id: "2",
+        payee: "Verizon",
+        status: "Pending",
+        payment_amount: "90",
+        payment_date: "11/11/2015"
+
+    }
+];
+
 /* GET accounts listing. */
 router.get('/:customerId/accounts', function (req, res, next) {
     res.json(accounts);
+});
+
+/* GET bills listing. */
+router.get('/:customerId/bills', function (req, res, next) {
+    res.json(bills);
 });
 
 module.exports = router;
