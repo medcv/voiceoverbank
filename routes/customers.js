@@ -5,20 +5,20 @@ var accounts = [
     {
         id: "1",
         type: "Capital 360",
-        nickname: "Yazdan360",
+        nickname: "Yazdan",
         balance: "2360"
     },
     {
         id: "2",
         type: "Credit Card",
-        nickname: "Yazdan Credit",
+        nickname: "EASE",
         balance: "540"
 
     },
     {
         id: "3",
         type: "Bank",
-        nickname: "My Bank",
+        nickname: "Wife",
         balance: "23590"
 
     }
@@ -31,14 +31,14 @@ var bills = [
         payee: "Cable",
         status: "Pending",
         payment_amount: "230",
-        payment_date: "12/11/2015"
+        payment_date: "12/12/2015"
     },
     {
         id: "2",
         payee: "Verizon",
         status: "Pending",
         payment_amount: "90",
-        payment_date: "11/11/2015"
+        payment_date: "8/12/2015"
 
     }
 ];
