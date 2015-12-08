@@ -38,7 +38,7 @@ var bills = [
         payee: "Verizon",
         status: "Pending",
         payment_amount: "90",
-        payment_date: "8/12/2015"
+        payment_date: "12/8/2015"
 
     }
 ];
